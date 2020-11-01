@@ -1,0 +1,424 @@
+/*cssリセット　*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*ここから書き始める　*/
+* {
+	box-sizing: border-box;
+}
+.container {
+	width: 100%;
+}
+.top-wrapper {
+  background-image: url(https://s3-ap-northeast-1.amazonaws.com/flower-production-assets/assets/web/home/bg_header_pink-4704d42ed44908fb061e80afc515a93ab2fcbfd605c2580de486a4d980b2115a.jpg);
+  background-size: cover;
+  background-position: center bottom;
+  height: 960px;
+  text-align: center;
+	padding-bottom: 10px;
+}
+.top-wrapper h1 {
+  margin-top: 0px;
+  margin-bottom: 0;
+  font-size: 90px;
+  font-weight: normal;
+  color: white;
+  padding-top: 120px;
+}
+.top-wrapper h2 {
+  margin-top: 0;
+  font-size: 30px;
+  color: white;
+  font-weight: normal;
+}
+.top-wrapper p {
+  padding-top: 20px;
+  color: white;
+  font-size: 20px;
+}
+.add-document {
+	font-size: 10px;
+	color: white;
+	padding-top: 23px;
+	font-size: 13px;
+}
+.googlePlay {
+  width: 157px;
+  margin-top: 500px;
+}
+.appStore {
+  width: 200px;
+  margin-top: 500px
+}
+.main-content {
+  background-size: cover;
+  background-position: center;
+  width: 33.3%;
+  height: 780px;
+	color: white;
+}
+.item-1 {
+  background-image: url(https://s3-ap-northeast-1.amazonaws.com/flower-production-assets/assets/web/home/bg_service01-01ee576583ddad054106d9f2dc78caf78be6c829383351a4fbc99ac5a566020a.jpg);
+	float: left;
+}
+.item-1 h1 {
+	font-size: 23px;
+	padding: 60px 0 30px 35px;
+	line-height: 30px;
+}
+.item-1 h2 {
+	font-size: 16px;
+	padding-left: 30px;
+	padding-right: 30px;
+	line-height: 22px;
+}
+.item-2 {
+  background-image: url(https://s3-ap-northeast-1.amazonaws.com/flower-production-assets/assets/web/home/bg_service02-cd59d8cd17b05503a9fc3eeae42d618d0cc19b2277b581f5db275d5dde09e94d.jpg);
+	float: left;
+}
+.item-2 h1 {
+	font-size: 23px;
+	padding: 60px 0 30px 35px;
+	line-height: 30px;
+}
+.item-2 h2 {
+	font-size: 16px;
+	padding-left: 30px;
+	padding-right: 30px;
+	line-height: 22px;
+}
+.item-3 {
+  background-image: url(https://s3-ap-northeast-1.amazonaws.com/flower-production-assets/assets/web/home/bg_service03-4c44f872ed6f7ed3007faeb109b1e03ceabcdb3106ba54392a5457a159a0f2ab.jpg);
+	float: left;
+}
+.item-3 h1 {
+	font-size: 23px;
+	padding: 60px 0 30px 35px;
+	line-height: 30px;
+}
+.item-3 h2 {
+	font-size: 16px;
+	padding-left: 30px;
+	padding-right: 30px;
+	line-height: 22px;
+}
+.floatClear {
+	clear: both;
+}
+.detailed-content {
+	height: 580px;
+	width: 50%;
+	text-align: center;
+	color: #2f2f2f;
+}
+.menu-1 {
+	background-color: #f5f5f5;
+	float: left;
+}
+.menu-1 h1 {
+	padding-top: 50px;
+	font-size: 20px;
+	line-height: 30px;
+}
+.icons {
+	position: relative;
+}
+.flower-icon {
+	width: 200px;
+	padding-top: 55px;
+}
+.free-icon {
+	position: absolute;
+	width: 183px;
+	top: 17px;
+
+}
+.menu-1 h2 {
+	padding-top: 30px;
+	padding-bottom: 30px;
+	line-height: 30px;
+}
+.menu-1 span {
+	font-size: 23px;
+	line-height:
+}
+.menu-1 p {
+	font-size: 13px;
+	line-height: 21px;
+}
+.menu-2 {
+	float: left;
+}
+.menu-2 h1 {
+	font-size: 20px;
+	line-height: 30px;
+	padding-top: 160px;
+}
+.menu-2 img {
+	width: 200px;
+	padding-top: 35px;
+	right: 130px;
+}
+.fourth-wrapper {
+	background-color: #ead5dc;
+}
+.whatFlower-content {
+	height: 720px;
+	width: 50%;
+	text-align: center;
+	color: #2f2f2f;
+}
+.point-1 {
+	float: left;
+	background-image: url(https://s3-ap-northeast-1.amazonaws.com/flower-production-assets/assets/web/home/bg_flower-1a07674a0e731b035e9344d0b0ec772eb116759368da38dc0b21bec925479009.jpg);
+	background-repeat: no-repeat;
+	background-position: 100% center;
+	background-size: 90%;
+}
+.point-1 img {
+	margin-top: 65px;
+	max-width: 90%;
+	height: auto;
+}
+.point-2 {
+	float: left;
+}
+.point-2 h1 {
+	font-size: 24px;
+	padding-top: 95px;
+	padding-bottom: 80px;
+}
+.point-2 h2 {
+	font-size: 20px;
+	padding-top: 40px;
+	padding-bottom: 20px;
+}
+.point-2 p {
+	width: 500px;
+	line-height: 27px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.fifth-wrapper {
+	background-color: #e7e3df;
+}
+.flowerPrice-content {
+	height: 830px;
+	width: 50%;
+	text-align: center;
+	color: #2f2f2f;
+}
+.flowerMake {
+	width: 450px;
+	margin: 0 auto;
+}
+.flowerItem-1 {
+	float: left;
+}
+.flowerItem-1 h1 {
+	font-size: 26px;
+	line-height: 40px;
+	padding-top: 80px;
+}
+.flowerItem-1 input {
+	border: 1px solid #fff;
+	font-size: 16px;
+	width: 130px;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-top: 13px;
+	line-height: 25px;
+}
+.flowerItem-1 p {
+	width: 400px;
+	line-height: 27px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 100px;
+}
+.flowerVase-image {
+	display: flex;
+	justify-content: space-around;
+	align-items: flex-start;
+}
+.vaseImage {
+	position: relative;
+}
+.vaseImage h3 {
+	position: absolute;
+	margin-top: -24px;
+	margin-left: 30px;
+	font-size: 15px;
+}
+.vaseImage img {
+	width: 100px;
+	margin-top: 30px;
+}
+.textContents-1 {
+	float: left;
+}
+.textContents-1 {
+	line-height: 23px;
+	border: 2px solid #2f2f2f;
+	padding: 7px 13px;
+	margin-top: 27px;
+	margin-left: 25px
+}
+.textContents-2 {
+	margin-top: 40px;
+}
+.textContents-2 h4 {
+	font-size: 20px;
+	margin-right: 100px;
+}
+.textContents-2 h5 {
+	padding-top: 10px;
+	margin-right: 62px
+}
+.textContents-3 {
+	font-size: 13px;
+	margin-top: 30px;
+	margin-left: -220px;
+}
+.textContents-4 {
+	display: none;
+}
+.flowerItem-2 {
+	float: left;
+	background-image: url(https://s3-ap-northeast-1.amazonaws.com/flower-production-assets/assets/web/home/bg_vase-45bcc89846e1a077353f799e42054251c3e3e570fcc453b8d96282d5df1ad6db.jpg);
+	background-repeat: no-repeat;
+	background-position: 100% center;
+	background-size: 90%;
+}
+.flowerItem-2 img {
+	max-width: 70%;
+	height: auto;
+	float: right;
+}
+.sixth-wrapper {
+	text-align: center;
+	height: 566px;
+}
+
+.flowerPoints {
+	display: flex;
+	justify-content: center;
+	padding-top: 50px;
+}
+.heading h1 {
+	line-height: 40px;
+	font-size: 26px;
+	letter-spacing: 2px;
+	padding-top: 120px
+}
+.flowerPoint img {
+	width: 100px;
+}
+.flowerPoint h1 {
+	font-size: 22px;
+}
+.flowerPoint p {
+	padding-top: 18px;
+	line-height: 25px;
+}
+.flowerPoint {
+	flex: auto;
+}
+.seventh-wrapper {
+	height: 425px;
+	background-color: #efdfc5;
+	background-image: url(https://s3-ap-northeast-1.amazonaws.com/flower-production-assets/assets/web/home/bg_download2-afd5325a6ad7ae095cd1aad7172be40a68704bad0eaae90dbff5e274759345ad.jpg);
+	background-repeat: no-repeat;
+	background-position: 30% bottom;
+	background-size: 550px;
+}
+.mobileFlower-1 {
+	padding-left: 60%;
+	padding-top: 60px;
+}
+.mobileFlower-1 img {
+	width: 120px;
+	padding-left: 18px;
+}
+.mobileFlower-1 h1 {
+	padding-top: 19px;
+}
+.mobileFlower-2 {
+	display: none;
+}
+header {
+	height: 450px;
+	background-color: #3f434a;
+}
+.imformationFlower {
+	padding-left: 70px;
+	display: flex;
+}
+.imformation-content {
+	flex: auto;
+}
+.imformation-content a {
+	color: white;
+	text-decoration: none;
+}
+.imformation-icon img {
+	float: right;
+	padding-top: 23px;
+	margin-right: 3%;
+	width: 60px;
+}
+.imformationIcon-2 img {
+	display: none;
+}
+.caution {
+	text-align: center;
+	margin-top: 250px;
+	color: white;
+	opacity: 0.4;
+	font-size: 14px;
+	font-weight: 0.6px;
+}
+/* jQuery専用 */
+.flowerimg {
+	display: none;
+}
